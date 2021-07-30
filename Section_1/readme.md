@@ -3,10 +3,11 @@
 ## Step 0
 Copy python `cleaning_schedule_at_0100hrs.py` based on the following tree structure.
 
-.
+```
 +-- python cleaning_schedule_at_0100hrs.py
   +--- cleaned <- directory
   +--- upload  <- directory
+```
 
 ## Step 1
 Go to terminal and input the following to create a new environment and install pandas
