@@ -140,5 +140,6 @@ Next we will answer the 2 questions.
 Key points are we need to left join so that we are able to see all of customers and if we do not do that the sql will not display customer that didn't purchase anything. Next, we need to group by customers ( in case they make repeated purchases) and order in a descending manner. 
 ![](https://i.imgur.com/ezMTILY.png "Title")
 
-In the following question, the key point is we need to extract the `YYYY-MM` of the date and also extract the `current month` and use it as a dynamic filter and we can create a view for the stakeholders too. Also, we limit by 3 since we want top 3( sort descending ) and I assume `Revenue` is more important here. 
+In the following question, the key point is we need to extract the `YYYY-MM` of the date and also extract the `current month` and use it as a dynamic filter and we can create a view for the stakeholders too. Also, we limit by 3 since we want top 3( sort descending ) and I assume `Revenue` is more important here.
+
 ![](https://i.imgur.com/U0il6dJ.png "Title")
