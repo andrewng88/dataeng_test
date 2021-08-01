@@ -66,9 +66,9 @@ For this dashboard, basically we can filter by
 
 As for the rest, dashbard are self explanatory.
 
-![](https://i.imgur.com/bfjAYGV.png "Title")
+![](https://i.imgur.com/rZ74AqU.png "Title")
 
-![](https://i.imgur.com/vDHvNWH.png "Title")
+![](https://i.imgur.com/b5LRL6C.png "Title")
 
 ## POC and suggestions moving forward
 

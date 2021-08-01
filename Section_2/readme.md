@@ -7,11 +7,11 @@ Install [dbeaver](https://dbeaver.io/download/) Universal Database Tool. It will
 
 ## Step 1
 Initial brainstorming of the tables required based on the requirement.
-![](https://i.imgur.com/GVFJv5m.png "Title")
+![](https://i.imgur.com/cTghLZO.png "Title")
 > Note: `Color coded fields` to represent primary key linked to foreign keys
 
 And we translate to an ER Diagram which is a very simple `star schema` and `normalized` to reduce redundancy.
-![](https://i.imgur.com/8F4jBAI.png "Title")
+![](https://i.imgur.com/EZ5BSLx.png "Title")
 
 ## Step 2
 ## 
@@ -114,7 +114,7 @@ We managed to create postgres tables via docker. Hurrah.
 
 Then we configure and run `dbeaver` to access the db. We even created a `invoice view` for stakeholder's convenience.
 
-![](https://i.imgur.com/dWX8Ikg.png "Title")
+![](https://i.imgur.com/tAsOuA5.png "Title")
 ```sh
 -- view for invoice query
 CREATE VIEW "CAR_DEALER".view_invoice AS
@@ -138,8 +138,8 @@ on I."SALESPERSON_ID" = S."ID";
 Next we will answer the 2 questions.
 
 Key points are we need to left join so that we are able to see all of customers and if we do not do that the sql will not display customer that didn't purchase anything. Next, we need to group by customers ( in case they make repeated purchases) and order in a descending manner. 
-![](https://i.imgur.com/ezMTILY.png "Title")
+![](https://i.imgur.com/H8LPLil.png "Title")
 
 In the following question, the key point is we need to extract the `YYYY-MM` of the date and also extract the `current month` and use it as a dynamic filter and we can create a view for the stakeholders too. Also, we limit by 3 since we want top 3( sort descending ) and I assume `Revenue` is more important here.
 
-![](https://i.imgur.com/U0il6dJ.png "Title")
+![](https://i.imgur.com/LownIPV.png "Title")

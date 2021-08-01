@@ -6,7 +6,7 @@ Not really familiar with this topic and I tried my best to piece up based on Net
 Assumptions : Users are mostly from Singapore since it's a Govtech assignment
 We should be using a [AWS Pricing Calculator](https://calculator.aws/#/) to see if it's within budget too.
 
-![](https://i.imgur.com/qxfnKk1.png "Title")
+![](https://i.imgur.com/hJCq4nB.png "Title")
 
 >We can see that there are `2 Availability Zones` for redundancy purposes eventhough we have 3 AZ here.
 
