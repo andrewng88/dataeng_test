@@ -42,4 +42,7 @@ Confirm cron is done correctly
 crontab -l
 ```
 
+[Sample](https://github.com/andrewng88/dataeng_test/blob/master/Section_1/cleaned/dataset1.csv) of the cleaned csv.
+
+
 :v:

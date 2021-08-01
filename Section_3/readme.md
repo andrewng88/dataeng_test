@@ -8,13 +8,13 @@ We should be using a [AWS Pricing Calculator](https://calculator.aws/#/) to see 
 
 ![](https://i.imgur.com/qxfnKk1.png "Title")
 
->We can see that there is `2 Availability Zones` for redundancy purposes eventhough we have 3 AZ here.
+>We can see that there are `2 Availability Zones` for redundancy purposes eventhough we have 3 AZ here.
 
 End user access will be divided between public and private dns access. This is for security purposes which is handled by the NAT gateway.
 
 Then, the data(images) will flow to the `Web Portal` with the help of the `Application Load Balance`. It automatically distributes your incoming traffic across multiple targets.
 
-Then, `AWS Auto Scaling` monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost. For example, perhaps the company wanted to provide free services for 24 hours then this would be of good use.
+Then, `AWS Auto Scaling` or `Cloudwatch`  monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost. For example, perhaps the company wanted to provide free services for 24 hours(usage spike) then this would be of good use.
 
 Then data will be transferred to our model also via another `Application Load Balance` to a `Web App Instance` process the images and then stored in the 'S3 bucket'. S3( Object Storage) benefits are better data analytics(metadata), infinite scalibiliy and cost effective. We can also be exploring `Hadoop`'s distributed database.
 
