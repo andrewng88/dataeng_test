@@ -14,6 +14,8 @@ Using Decision Tree supported by pandas groupby method with an accuracy of 30% w
 
 ## Explanation
 ![](https://i.imgur.com/Fj3VFW9.png "Title")
+
+
 From feature selection we found out that feature 4 `class` is significant in predicting. With only 1 feature to predict , we will have a higher adjusted `R^2` too.
 
 We double confirmed with a simple groupby. We have almost twice odds of predicting a 1 rather than a 2 ,given the `buy_price` values
